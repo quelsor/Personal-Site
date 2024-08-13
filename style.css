@@ -1,0 +1,135 @@
+.hi{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    background-color: beige;
+    height: 800px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+#beginning{
+    font-size: xxx-large;
+}
+
+.border1{
+    background-color: burlywood;
+    color: #232629;
+    padding: 20px 100px;
+    border-radius: 20px;
+    border: solid black 10px;
+
+    font-family: "Sniglet", system-ui;
+}
+
+.hi > .container > img{
+    position: relative;
+    top: 10px;
+}
+
+.About{
+    height: 800px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    background-color: dimgray;
+    color: #f0d9b5;
+    font-family: "Sniglet", system-ui;
+    padding: 50px;
+}
+
+#about{
+    padding: 20px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+#profile{
+    border-radius: 100%;
+}
+
+.My{
+    display: flex;
+    height: 800px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.My > .container{
+    background-color: #b58863;
+    border-radius: 20px;
+    font-family: "Sniglet", system-ui;
+
+    padding-right: 80px; padding-left: 80px;
+}
+
+#my-skills{
+    padding: 20px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.one, .two {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-width: 100px;
+    height: auto;
+}
+
+.body {
+    width: 100%;
+}
+
+.Get{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Sniglet", system-ui;
+
+    background-color: #f0d9b5;
+    height: 500px;
+    border: 0;
+}
+
+#get-in-touch{
+    font-weight: 1000;
+    padding: 20px 0;
+}
+
+#contact{
+    background-color: #232629;
+    color: #f0d9b5;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#kitten-paw{
+    position: relative;
+    right: 180px;
+    top: 180px;
+    transform: rotate(20deg);
+}
+
+.Footer{
+    background-color: #b58863;
+    padding-bottom: 10px;
+}
+
+#contact:hover{
+    background-color: white;
+    color: hotpink;
+}
